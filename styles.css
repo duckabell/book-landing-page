@@ -1,0 +1,36 @@
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: roboto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    background-color: #1F2937;
+}
+
+.header-links {
+   
+    justify content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.container-header {
+    background-color: #1F2937;
+}
