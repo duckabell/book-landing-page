@@ -46,7 +46,8 @@ ul {
 
 .container-hero {
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
+    align-items: center;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 50px;
@@ -58,13 +59,15 @@ h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 25px;
 }
 
 .hero {
     font-size: 18px;
     color: #E5E7Eb;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 25px;
 }
 
 button {
@@ -77,3 +80,53 @@ button {
     margin: 15px;
 }
 
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.child-categories {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.rounded {
+    border-radius: 25px;
+    border:#1F2937;
+}
+
+.container-quote {
+    background-color:#E5E7EB;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+    width: 800px;
+}
+
+.container-byline {
+    display: flex;
+    text-align: right;
+    font-weight: bold;
+    justify-content:flex-end;
+    background-color:#E5E7EB;
+    width: 100%;
+}
+
+.byline {
+    width: 800px;
+}
+
+/* I think I need to put the byline and quote in the same block so that the margins and widths are the same. */
