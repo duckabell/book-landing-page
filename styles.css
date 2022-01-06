@@ -80,7 +80,7 @@ button {
     margin: 15px;
 }
 
-.categories {
+.container-categories {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,8 +103,8 @@ button {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100%;
+    
 }
 
 .quote {
@@ -113,20 +113,38 @@ button {
     font-weight: lighter;
     color: #1F2937;
     text-align: center;
-    width: 800px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: -30px;
 }
 
 .container-byline {
-    display: flex;
-    text-align: right;
+    
     font-weight: bold;
-    justify-content:flex-end;
-    background-color:#E5E7EB;
-    width: 100%;
+    text-align: right;
+    margin-right: 320px;
+  
+    
 }
 
-.byline {
-    width: 800px;
+.callout {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: #3882F6;
+    display: flex;
+    padding: 25px 150px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* I think I need to put the byline and quote in the same block so that the margins and widths are the same. */
+.callout-button {
+    border: 2px;
+    border-color: white;
+}
+
+.callout-header {
+    font-size: 18px;
+    color: #E5E7Eb;
+}
